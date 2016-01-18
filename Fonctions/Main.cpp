@@ -16,7 +16,7 @@ int composant2(int p1, int p2)
 int main(int argc, char * argv)
 {
 	int data1=3;
-	int data2=5;
+	int data2=4;
 
 	int valeur1;
 	int valeur2;
@@ -26,5 +26,5 @@ int main(int argc, char * argv)
 	valeur2=composant2(data1,data2);
 
 	std::cout << "valeur 1 :" << valeur1 << " valeur 2 :" << valeur2 << std::endl;
-	Sleep(1000);
+	Sleep(4000);
 }
